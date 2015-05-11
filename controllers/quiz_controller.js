@@ -30,6 +30,7 @@ exports.index = function(req, res) {
 }
 
 
+
  // GET /quizes/answer
  exports.answer= function(req, res){
 

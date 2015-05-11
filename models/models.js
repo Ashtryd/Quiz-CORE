@@ -31,6 +31,7 @@ var sequelize = new Sequelize(DB_name, user, pwd,
 var quiz_path=path.join(__dirname,'quiz');
 var Quiz= sequelize.import(quiz_path);
 
+
 exports.Quiz= Quiz; //Exporta la definicion en Quiz
 
 //Inicializa la tabla de preguntas
